@@ -1,0 +1,19 @@
+.tareas{
+    
+    &-main-conatiner{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(238, 160, 16);
+        width: 80%;
+        height: 40rem;
+        flex-direction: column;
+    }
+
+    &-container{
+        display: flex;
+    }
+    
+
+    
+}

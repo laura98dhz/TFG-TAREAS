@@ -1,0 +1,14 @@
+.tareas-que-hacer{
+    &-container{ 
+        width: 20rem;
+        height: 30rem;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    &-titulo{
+        text-decoration: underline solid black;
+        text-transform: uppercase;
+    }
+}
