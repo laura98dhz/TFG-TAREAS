@@ -6,6 +6,9 @@
         text-align: center;
         padding: 1rem;
     }
+    &-item{
+        list-style: none;
+    }
 
     &-titulo{
         text-decoration: underline solid white;

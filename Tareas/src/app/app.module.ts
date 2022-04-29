@@ -7,6 +7,9 @@ import { TareasQueHacerComponent } from './Componentes/tareas-que-hacer/tareas-q
 import { TareasEnProcesoComponent } from './Componentes/tareas-en-proceso/tareas-en-proceso.component';
 import { TareasTerminadasComponent } from './Componentes/tareas-terminadas/tareas-terminadas.component';
 import { MainComponent } from './Componentes/main/main.component';
+import { TareaQueHacerItemComponent } from './Componentes/tarea-que-hacer-item/tarea-que-hacer-item.component';
+import { TareaEnProcesoItemComponent } from './Componentes/tarea-en-proceso-item/tarea-en-proceso-item.component';
+import { TareaTerminadasItemComponent } from './Componentes/tarea-terminada-item/tarea-terminadas-item.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { MainComponent } from './Componentes/main/main.component';
     TareasQueHacerComponent,
     TareasEnProcesoComponent,
     TareasTerminadasComponent,
-    MainComponent
+    MainComponent,
+    TareaQueHacerItemComponent,
+    TareaEnProcesoItemComponent,
+    TareaTerminadasItemComponent
   ],
   imports: [
     BrowserModule,
