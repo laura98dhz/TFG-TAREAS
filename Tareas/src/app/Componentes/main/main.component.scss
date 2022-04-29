@@ -1,25 +1,44 @@
 .tareas{
     
     &-main{
-        &-conatiner{
-
+        &-container{
             display: flex;
-            justify-content: space-around;
             align-items: center;
-            background-color: rgb(238, 160, 16);
-            width: 80%;
+            background-color: rgb(219, 112, 147);
+            width: 85%;
             height: 40rem;
             flex-direction: column;
+            padding: 1rem;
         }
         &-titulo{
             text-transform: uppercase;
+            color: white;
+            margin-bottom: 2rem;
         }
     }
 
     &-container{
         display: flex;
+        justify-content: space-around;
+        width: 95%;
+        height: 100%;
     }
-    
 
+    &-item{
+        &--1{
+            width: 20rem;
+            height: 30em;
+        }
+
+        &--2{
+            width: 20rem;
+            height: 30rem;
+        }
+
+        &--3{
+            width: 20rem;
+            height: 30rem;
+        }
+    }
     
 }

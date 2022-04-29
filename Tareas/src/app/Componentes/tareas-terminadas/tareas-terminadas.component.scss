@@ -1,14 +1,15 @@
 .tareas-terminadas{
     &-container{ 
-        width: 20rem;
-        height: 30rem;
-        background-color: rgb(255, 255, 255);
-        border: 1px solid black;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 235, 52);
         text-align: center;
+        padding: 1rem;
     }
 
     &-titulo{
-        text-decoration: underline solid black;
+        text-decoration: underline solid white;
         text-transform: uppercase;
+        color: white;
     }
 }
